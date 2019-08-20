@@ -1,6 +1,6 @@
 {
   "name": "@sujithz/vue-select",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "taggable select2 ",
   "main": "src/index.js",
   "directories": {
