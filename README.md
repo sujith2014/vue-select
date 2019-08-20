@@ -27,7 +27,7 @@ Complete documentation and examples available at https://vue-select.org.
 ## Install
 
 ```bash
-$ npm install vue-select
+$ npm install @sujithz/vue-select
 ```
 
 Register the component
