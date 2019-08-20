@@ -1,4 +1,3 @@
-# vue-select ![Current Release](https://img.shields.io/github/release/sagalbot/vue-select.svg?style=flat-square) ![Bundle Size](https://flat.badgen.net/bundlephobia/min/vue-select)  ![Monthly Downloads](https://img.shields.io/npm/dm/vue-select.svg?style=flat-square) ![Code Coverage](https://img.shields.io/coveralls/github/sagalbot/vue-select.svg?style=flat-square) ![Maintainability Score](https://img.shields.io/codeclimate/maintainability/sagalbot/vue-select.svg?style=flat-square) ![MIT License](https://img.shields.io/github/license/sagalbot/vue-select.svg?style=flat-square) 
 
 > **Everything you wish the HTML `<select>` element could do, wrapped up into a lightweight, zero 
 dependency, extensible Vue component.** 
@@ -22,7 +21,7 @@ Complete documentation and examples available at https://vue-select.org.
 - **[API Documentation](https://vue-select.org)**
 - **[Sandbox Demo](https://vue-select.org/sandbox.html)**
 - **[CodePen Template](http://codepen.io/sagalbot/pen/NpwrQO)**
-- **[GitHub Projects](https://github.com/sagalbot/vue-select/projects)**
+- **[GitHub Projects](https://github.com/sujith2014/vue-select/projects)**
 
 ## Install
 
@@ -50,5 +49,5 @@ You can also include vue-select directly in the browser. Check out the
 
 ## License
 
-[MIT](https://github.com/sagalbot/vue-select/blob/master/LICENSE.md)
+[MIT](https://github.com/sujith2014/vue-select/blob/master/LICENSE.md)
 # vue-select
