@@ -45,7 +45,7 @@
         </slot>
 
         <slot name="spinner" v-bind="scope.spinner">
-          <div class="vs__spinner" v-show="mutableLoading">Loading...</div>
+          <div class="vs__spinner" v-show="mutableLoading">Loadings...</div>
         </slot>
       </div>
     </div>
@@ -62,7 +62,7 @@
           @mousedown.prevent.stop="select(option)"
         >
           <slot name="option" v-bind="normalizeOptionForSlot(option)">
-            {{ getOptionLabel(option) }}
+            {{ getOptionLabel(option) }} <span v-if="">Add new</span>
           </slot>
         </li>
         <li v-if="!filteredOptions.length" class="vs__no-options" @mousedown.stop="">
@@ -987,6 +987,7 @@
 
         let options = this.search.length ? this.filter(optionList, this.search, this) : optionList;
         if (this.taggable && this.search.length && !this.optionExists(this.search)) {
+          this.search.taggable=true
           options.unshift(this.search)
         }
         return options
