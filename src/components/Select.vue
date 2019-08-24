@@ -66,7 +66,7 @@
           </slot>
         </li>
         <li v-if="!filteredOptions.length" class="vs__no-options" @mousedown.stop="">
-          <slot name="no-options">Sorry, no matching options.</slot>
+          <slot name="no-options">So0rry, no matching options.</slot>
         </li>
       </ul>
     </transition>
